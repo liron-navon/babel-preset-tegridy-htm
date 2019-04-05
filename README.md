@@ -1,8 +1,8 @@
-# babel-preset-tegrity-htm
+# babel-preset-tegridy-htm
 
-**Typescript** doesn't play nicely with this preset, since `babel-plugin-htm` doesn't support it (doesn't support the temlateLiteral output from typescript), so you can use it in runtime if you wish.
+**Typescript** doesn't play nicely with this preset.
 
-Babel preset to transform HTM into `Tegrity.createComponent` calls.
+Babel preset to transform HTM into `Tegridy.createComponent` calls.
 
 Thanks to the HTM project for this great package [https://github.com/developit/htm](https://github.com/developit/htm);
 
@@ -11,13 +11,13 @@ Thanks to the HTM project for this great package [https://github.com/developit/h
 Via NPM
 
 ```javascript
-npm install babel-preset-tegrity-htm --save-dev
+npm install babel-preset-tegridy-htm --save-dev
 ```
 
 or Yarn
 
 ```javascript
-yarn add babel-preset-tegrity-htm --dev
+yarn add babel-preset-tegridy-htm --dev
 ```
 
 ### Usage
@@ -27,7 +27,7 @@ Make or update your .babelrc config file with the preset:
 ```javascript
 {
   "presets": [
-    "tegrity-htm"
+    "tegridy-htm"
   ]
 }
 ```
@@ -39,7 +39,7 @@ Via package.json
    "babel": {
      "presets": [
        "es2015",
-       "tegrity-htm"
+       "tegridy-htm"
      ],
      "plugins": [
      ]
@@ -50,7 +50,7 @@ Via package.json
 ## Example usage
 
 ```javascript
-import Tegrity from './lib/Tegrity'
+import Tegridy from 'tegridy'
 
 export const Text = (props) => {
     return html`

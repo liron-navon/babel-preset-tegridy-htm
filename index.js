@@ -2,7 +2,7 @@ module.exports = () => {
   return {
     plugins: [
       ["htm", {
-        "pragma": "Tegrity.createComponent"
+        "pragma": "Tegridy.createComponent"
       }]
     ]
   }

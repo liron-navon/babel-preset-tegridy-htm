@@ -1,11 +1,11 @@
 {
-  "name": "babel-preset-tegrity-htm",
+  "name": "babel-preset-tegridy-htm",
   "version": "1.0.1",
-  "description": "Babel preset to transform HTM into Tegrity.createComponent calls.",
+  "description": "Babel preset to transform HTM into Tegridy.createComponent calls.",
   "author": "Liron Navon <lironavon42@gmail.com>",
-  "homepage": "https://github.com/liron-navon/babel-preset-tegrity-htm",
+  "homepage": "https://github.com/liron-navon/babel-preset-tegridy-htm",
   "license": "MIT",
-  "repository": "liron-navon/babel-preset-tegrity-htm",
+  "repository": "liron-navon/babel-preset-tegridy-htm",
   "main": "index.js",
   "dependencies": {
     "babel-plugin-htm": "^2.1.0"
